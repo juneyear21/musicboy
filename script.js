@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <h3>${title}</h3>
               </div>
             </div>
-            <audio controls autoplay name="media" src="https://musicboy.vercel.app/stream?URL=${yt_link}&title=${encodeURIComponent(title)}"></audio>
+            <audio controls autoplay name="media" src="http://localhost:4000/stream?URL=${yt_link}&title=${encodeURIComponent(title)}"></audio>
           `;
         });
       });
